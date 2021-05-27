@@ -3,9 +3,9 @@
 function renderLicenseBadge(license) {
 // creating an If function but they are not longer if statements.
 // basically if license is for ex MIT pro
-  if (license === 'MIT') {
-    
-  }
+  // if (license === 'MIT') {
+
+  // }
 }
 
 // TODO: Create a function that returns the license link
