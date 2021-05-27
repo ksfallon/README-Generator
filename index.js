@@ -26,25 +26,25 @@ const questions = [{
 {
     type: 'input',
     name: 'description',
-    message: 'Please describe what your app is for',
+    message: 'Please describe what your app is for:',
     // will be deployed as description of Description section
 },
 {
     type: 'input',
     name: 'usage',
-    message: 'Please describe how to use your app',
+    message: 'Please describe how to use your app:',
     // will be deployed as usage of Usage section
 },
 {
     type: 'input',
     name: 'installation',
-    message: 'Please explain how to install your app',
+    message: 'Please explain how to install your app:',
     // will be deployed as installation of Installation section
 },
 {
     type: 'input',
     name: 'contributions',
-    message: 'Please explain how to contribute to your project',
+    message: 'Please explain how to contribute to your project:',
     // will be deployed as contributions of Contributions section
 },
 {
