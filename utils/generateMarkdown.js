@@ -12,8 +12,9 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
 
-  if (data.license === 'MIT') {
-    return '<a href="https://choosealicense.com/licenses/mit/">'
+  if (license === 'MIT') {
+    console.log('Licensed under the [MIT License](https://choosealicense.com/licenses/mit/)')
+    return'Licensed under the [MIT License](https://choosealicense.com/licenses/mit/)'
   }
 
 }
@@ -30,6 +31,7 @@ function generateMarkdown(data) {
 
 ## License:
 - ${renderLicenseLink(data.license)}
+
 ## Table of Contents:
 1. [Installation Section](#installation-instructions)
 2. [Usage Section](#usage-information)
