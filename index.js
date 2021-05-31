@@ -43,6 +43,12 @@ const questions = [{
 },
 {
     type: 'input',
+    name: 'tests',
+    message: 'Please explain any test confirmations your app has here, or respond "no tests":',
+    // will be deployed as installation of Installation section
+},
+{
+    type: 'input',
     name: 'contributions',
     message: 'Please explain how to contribute to your project:',
     // will be deployed as contributions of Contributions section
