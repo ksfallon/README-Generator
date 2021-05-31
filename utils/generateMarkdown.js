@@ -2,9 +2,12 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
 
-//   if (license === 'MIT') {
+if (license === 'Apache') {
 
- // }
+  console.log('[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)')
+  return '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
+
+}
 }
 
 // TODO: Create a function that returns the license link
@@ -12,19 +15,20 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
 
   if (license === 'MIT') {
-    console.log('Licensed under the [MIT License](https://choosealicense.com/licenses/mit/)')
+
     return'Licensed under the [MIT License](https://choosealicense.com/licenses/mit/)'
   }
   if (license === 'GPLv2') {
-    console.log('Licensed under the [MIT License](https://choosealicense.com/licenses/gpl-2.0/)')
+
     return'Licensed under the [GPLv2 License](https://choosealicense.com/licenses/gpl-2.0/)'
   }
   if (license === 'Apache') {
-    console.log('Licensed under the [MIT License](https://choosealicense.com/licenses/apache-2.0/)')
-    return'Licensed under the [GPLv2 License](https://choosealicense.com/licenses/apache-2.0/)'
+
+    return'Licensed under the [Apache License](https://choosealicense.com/licenses/apache-2.0/)'
   }
   if (license === 'none') {
-    return
+    
+    return ''
   }
 
 
@@ -37,6 +41,7 @@ function renderLicenseSection(license) {}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+${renderLicenseBadge(data.license)}
 
 ## Description:
 - ${data.description}
@@ -63,7 +68,7 @@ function generateMarkdown(data) {
 - You can also reach me at my email address, ${data.email}, with any additional questions.
 
 ## License:
-- ${renderLicenseLink(data.license)}
+${renderLicenseLink(data.license)}
 
 
 
