@@ -1,9 +1,7 @@
-# gr
-## Description:
-- gr
+# CAROLINA SKYS
 
-## License:
-- Licensed under the [MIT License](https://choosealicense.com/licenses/mit/)
+## Description:
+- up and coming astronomers looking to learn more about constellations
 
 ## Table of Contents:
 1. [Installation Section](#installation-instructions)
@@ -13,18 +11,20 @@
 5. [Questions Section](#questions)
 
 ## Installation Instructions
-- gr
+- npm
 ## Usage Information
-- gr
+- npm install astStars
 ## Contribution Guidelines
-- gr
+- cloan and create a branch, push changes for me to see!
 ## Test Instructions
-- gr
+- no tests
 
-## 5. Questions:
-- Should you have any questions about the application that are not covered in my README or you run into any problems feel free to contact me through github at https://github.com/gr 
-- You can also reach me at my email address, gr, with any additional questions.
+## Questions:
+- Should you have any questions about the application that are not covered in my README or you run into any problems feel free to contact me through github at https://github.com/katelin 
+- You can also reach me at my email address, fall@gmail.com, with any additional questions.
 
+## License:
+- Licensed under the [GPLv2 License](https://choosealicense.com/licenses/gpl-2.0/)
 
 
 
