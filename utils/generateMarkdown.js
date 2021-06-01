@@ -57,13 +57,19 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  
+  if (license === 'MIT' || license === 'GPLv2' || license === 'Apache') {
+    return '## License:'
+  } else {
+    return ''
+  }
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
 ${renderLicenseBadge(data.license)}
+${renderLicenseSection(data.license)}
+${renderLicenseLink(data.license)}
 
 ## Description:
 - ${data.description}
@@ -89,8 +95,6 @@ ${renderLicenseBadge(data.license)}
 - Should you have any questions about the application that are not covered in my README or you run into any problems feel free to contact me through github at https://github.com/${data.github} 
 - You can also reach me at my email address, ${data.email}, with any additional questions.
 
-## License:
-${renderLicenseLink(data.license)}
 
 
 
