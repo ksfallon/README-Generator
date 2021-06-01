@@ -1,8 +1,8 @@
-# bees
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# j
+
 
 ## Description:
-- keeping bees away
+- j
 
 ## Table of Contents:
 1. [Installation Section](#installation-instructions)
@@ -13,20 +13,20 @@
 6. [License Section](#license)
 
 ## Installation Instructions
-- npm i bees
+- j
 ## Usage Information
-- let it use your location
+- j
 ## Contribution Guidelines
-- clone, branch, pull request
+- j
 ## Test Instructions
-- no tests
+- j
 
 ## Questions:
-- Should you have any questions about the application that are not covered in my README or you run into any problems feel free to contact me through github at https://github.com/katein 
-- You can also reach me at my email address, kat@gmail.com, with any additional questions.
+- Should you have any questions about the application that are not covered in my README or you run into any problems feel free to contact me through github at https://github.com/j 
+- You can also reach me at my email address, j, with any additional questions.
 
 ## License:
-Licensed under the [Apache License](https://choosealicense.com/licenses/apache-2.0/)
+
 
 
 
