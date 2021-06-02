@@ -80,7 +80,6 @@ ${renderLicenseLink(data.license)}
 3. [Contribution Section](#contribution-guidelines)
 4. [Test Section](#test-instructions)
 5. [Questions Section](#questions)
-6. [License Section](#license)
 
 ## Installation Instructions
 - ${data.installation}

@@ -75,7 +75,7 @@ function init() {
     inquirer
 .prompt(questions)
 .then(answers =>  {
-    writeToFile ('README.md', generateMarkdown({
+    writeToFile ('./output/README.md', generateMarkdown({
         // uses spread operator to concat answers hash
         ...answers
     }))
