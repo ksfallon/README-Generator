@@ -6,8 +6,8 @@
 3. [Video of creating a README.md](#video-of-readme)
 
 ## Overview
-For this project we are using the npm inquirer package and the built fs package for node js. I have also added the path package that is also built into node js. With the inquirer package I have created questions that will require an input from the user. This input will then be used to create a professional README.md page for their project.
-We are given two js files, **index.js** and **generateMarkdown.js**.
+
+- For this project we are using the npm inquirer package and the built fs package for node js. I have also added the path package that is also built into node js. With the inquirer package I have created questions that will require an input from the user. This input will then be used to create a professional README.md page for their project. We are given two js files, **index.js** and **generateMarkdown.js**.
 
 - In the **index.js** file we create the const require at the top that call on the packages we are using so one each for inquirer, fs and path. Also a constant require for the **generateMarkdown.js** to call on this file. the focus is on the inquirer package to create a series of questions that will then provide us answers from the users. 
 1. The area of questions are placed in a const called *questions* and each question object has a *type*, *name* and *message*. 
@@ -76,5 +76,10 @@ Licence link here if one is selected
 
 <h1 align="center"> Video of Readme </h1>
 
+![Demo-Part-1](https://youtu.be/voVIhnijse0)
+
+![Demo-Part-2](https://youtu.be/aNfsB1MLCbc)
+
+![Demo-Part-2](https://youtu.be/OA8Cyd3C_GI)
 
 
