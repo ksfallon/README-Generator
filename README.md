@@ -76,10 +76,10 @@ Licence link here if one is selected
 
 <h1 align="center"> Video of Readme </h1>
 
-![Demo-Part-1](https://youtu.be/voVIhnijse0)
+[Demo Part 1](https://youtu.be/voVIhnijse0)
 
-![Demo-Part-2](https://youtu.be/aNfsB1MLCbc)
+[Demo Part 2](https://youtu.be/aNfsB1MLCbc)
 
-![Demo-Part-2](https://youtu.be/OA8Cyd3C_GI)
+[Demo Part 3](https://youtu.be/OA8Cyd3C_GI)
 
 
