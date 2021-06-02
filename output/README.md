@@ -1,10 +1,11 @@
-# k
+<h1 align="center"> th </h1>
+  ---
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## License:
 Licensed under the [MIT License](https://choosealicense.com/licenses/mit/)
 
 ## Description:
-- k
+- th
 
 ## Table of Contents:
 1. [Installation Section](#installation-instructions)
@@ -14,17 +15,17 @@ Licensed under the [MIT License](https://choosealicense.com/licenses/mit/)
 5. [Questions Section](#questions)
 
 ## Installation Instructions
-- k
+- th
 ## Usage Information
-- k
+- th
 ## Contribution Guidelines
-- k
+- th
 ## Test Instructions
-- k
+- th
 
 ## Questions:
-- Should you have any questions about the application that are not covered in my README or you run into any problems feel free to contact me through github at https://github.com/k 
-- You can also reach me at my email address, k, with any additional questions.
+- Should you have any questions about the application that are not covered in my README or you run into any problems feel free to contact me through github at <https://github.com/ksfallon> 
+- You can also reach me at my email address, <fallon.katelin@gmail.com>, with any additional questions.
 
 
 

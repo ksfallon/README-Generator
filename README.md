@@ -1,6 +1,6 @@
-# README Generator
+<h1 align ="center"> README Generator </h1>
 
-TABLE OF CONTENTS:
+### **TABLE OF CONTENTS:**
 1. [Overview of README Generator](#overview)
 2. [README.md created in project](#users-project-title)
 3. [Video of creating a README.md](#video-of-readme)
@@ -43,11 +43,11 @@ We are given two js files, **index.js** and **generateMarkdown.js**.
 - Below is the basic layout for the README.md that is created with this project:
 
 
+---
+<h1 align="center"> Users Project Title </h1>
 
-# Users Project Title 
-
-## License (only shows if a license is selected)
 License Badge here if one is selected
+## License (only shows if a license is selected)
 Licence link here if one is selected
 
 ## Description:
@@ -72,9 +72,9 @@ Licence link here if one is selected
 - Should you have any questions about the application that are not covered in my README or you run into any problems feel free to contact me through github at https://github.com/(github username goes here) 
 - You can also reach me at my email address, (email address plugged in here), with any additional questions.
 
+---
 
-
-# Video of Readme
+<h1 align="center"> Video of Readme </h1>
 
 
 

@@ -79,7 +79,7 @@ function init() {
         // uses spread operator to concat answers hash
         ...answers
     }))
-    
+    console.log("You've successfully created a README.md!")
 })
 }
 
