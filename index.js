@@ -81,6 +81,7 @@ function init() {
     }))
     console.log("You've successfully created a README.md!")
 })
+.catch((err) => console.error(err));
 }
 
 // Function call to initialize app
